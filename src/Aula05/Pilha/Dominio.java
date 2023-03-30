@@ -27,13 +27,12 @@ public class Dominio {
                 System.out.println("Inserindo número na pilhaImpar: " + pilhaImpar.push(num));
             }
         }
-        for (int i = 0; i < pilhaPar.size(); i++) {
-
+        int  pilhaParSize = pilhaPar.size();
+        int  pilhaImparSiza = pilhaImpar.size();
+        for (int i = 0; i < pilhaParSize; i++) {
             System.out.println("Retirando elementos da pilha PAR: " + pilhaPar.pop());
-
         }
-        for (int i = 0; i < pilhaImpar.size(); i++) {
-
+        for (int i = 0; i < pilhaImparSiza; i++) {
             System.out.println("Retirando elementos da pilha IMPAR: " + pilhaImpar.pop());
         }
     }
